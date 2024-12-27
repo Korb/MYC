@@ -26,7 +26,7 @@ Other features for minimizing friction:
 	    - If you tap the ＋ symbol in the lower left you will be taken to the next screen where you can enter author, title, year, and "paste the content". When finished just tap the big red save button. The poem will be assigned a number that can be changed later in the process. 
 	    - (you navigate between screens by default android back behaviour)
 	    - You can also import prepared text files by tapping the import icon (that is the square with the arrow that points into the square). You will be taken to the file picker.
-	       - Syntax of import files is simple ([[## Bulk Importing Texts]])
+	       - Syntax of import files is simple ([Bulk Importing Texts](#bulk-importing-texts)])
 	       - The app detects automatically if it is one or more poems. If it's more than one poem, they will be assigned consecutive IDs
 	- If you want to change numbers of the poems, you press the 123 icon in the lower right corner, it will take you to the first poem
 	    - Just enter any new 3 digit ID, you will automatically be taken to the next one. 
