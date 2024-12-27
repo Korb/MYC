@@ -10,7 +10,7 @@ It is optimized for
 
 Other features for minimizing friction:
 - Text ID system (poem ID) for quick access via QuickDraw
-- Import and bulk import function for prepared text files with easy human readable syntax ([[## Bulk Importing Texts]])
+- Import and bulk import function for prepared text files with easy human readable syntax ([Bulk Importing Texts](#bulk-importing-texts)])
 - Easy change of order and numbering
 
 **Everything is hosted locally on your personal device. Your data are yours.**
