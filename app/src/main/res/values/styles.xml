@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertDialogButtonStyle</item>
+    </style>
+
+    <style name="AlertDialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/vptforegroundlightgray</item>
+    </style>
+</resources>

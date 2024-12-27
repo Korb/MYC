@@ -1,0 +1,22 @@
+2024-11-05 1.0.7
+- fix prev lines only showing 1 line when supposed to show 2 
+- move line numbers 
+
+2024-11-04 1.0.6 
+- smaller line numbers
+- line numbers more left 
+- fix line numbers lining display lines 
+
+2024-11-03 1.0.5
+- distance between lines and line numbers 
+- no more line numbers on empty lines
+2024-10-30 1.0.3 & 1.0.4 
+- line numbers! 
+2024-10-28 1.0.2 
+- broke prev lines (now sometimes only shows 1)
+- 2 strophen auf einer page
+
+2024-10-27 1.0.1 
+- color changed prev next lines 
+- adjusted layout margins 
+

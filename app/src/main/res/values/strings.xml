@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">VPT#023-MYC - Memorize Your Classics</string>
+    <string name="app_name_show">Memorize Your Classics</string>
+    <string name="welcome_message">Hello fellow poetry lover! Welcome to Memorize Your Classics, a distraction-free space for your favorite poems. <b><font color="#efcac2">Tap the red button to begin.</font></b>\n\n<b>Quick guide</b>:\n- <u>Next Screen</u> (view collection):\n    - Tap any poem to read\n    - Tap <b>+</b> (icon bar at bottom) to add new poems\n    - Swipe poem rectangle to the left to delete\n    - Use import icon to import prepared texts\n- <u>Poem view:</u>\n    - Navigate with taps left and right half of screen\n\n<b><font color="#efcac2">Everything is saved locally.</font></b></string>
+
+    <string name="anleitung2">This app is for those moments when you\'re drowning in a sea of literary greatness, unable to decide which classic to commit to memory next. Whether you\'re facing the daunting task of memorizing Shakespeare\'s entire canon or simply can\'t choose between Dickinson and Whitman, this app is your literary lifeline. Just tap the big red "Poems" button and let serendipity be your guide. The app will present you with a randomly selected masterpiece, complete with author, title, and a tantalizing countdown to… well, </string>
+    <string name="powertools">Valentin\'s PowerTools #023</string>
+
+
+    <string name="LICENSE">
+        Copyright 2024 Valentin\'s PowerTools\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see\nhttps://www.gnu.org/licenses.\n\nHere is the github link: https://github.com/v4lpt/MYC
+
+    </string>
+    <string name="copy">Copyright and License Information</string>
+
+    <string name="infobutton_info">Information Button (gives you Information)</string>
+    <string name="import_activity_content">Content\n(enter or paste complete poem, use empty lines between stanzas)</string>
+    <string name="import_activity_year">Year</string>
+    <string name="import_activity_word_title">Title</string>
+    <string name="import_activity_word_author">Author</string>
+    <string name="import_activity_word_category">Category:</string>
+    <string name="import_category_songs">Songs</string>
+    <string name="import_category_poems">Poems</string>
+    <string name="import_category_music">Music</string>
+    <string name="save">Save</string>
+    <string name="choose_layout_et_hint">Quick draw:\nenter poem code (3 digits)</string>
+
+</resources>

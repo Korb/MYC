@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444654">
+
+    <TextView
+        android:id="@+id/titleBar1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:background="#343541"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:text="@string/powertools"
+        android:textColor="#CCCCCC"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="304sp"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/titleBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleBar2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="#343541"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/app_name_show"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="30sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleBar1" />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint="@string/import_activity_word_author"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/titleBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="@string/import_activity_word_title"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/etAuthor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="@string/import_activity_year"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/etTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="0dp"
+        android:gravity="top"
+        android:hint="@string/import_activity_content"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/etYear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/import_activity_word_category"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/etContent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
+
+    <RadioGroup
+        android:id="@+id/rgCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/rbSongs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_radio_selector"
+            android:button="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/import_category_songs"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbPoems"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_radio_selector"
+            android:button="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/import_category_poems"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbMusic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_radio_selector"
+            android:button="@null"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/import_category_music"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSave"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#FF0000"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/save"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="35sp"
+        app:autoSizeMinTextSize="4sp"
+        app:autoSizeTextType="uniform"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rgCategory"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        app:layout_constraintTop_toBottomOf="@id/btnSave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vptbackground">
+
+    <TextView
+        android:id="@+id/tvPoemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1A1A1A"
+        android:paddingBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvPoemCount">
+
+        <TextView
+            android:id="@+id/titleYearView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:typeface="monospace"
+            app:layout_constraintEnd_toStartOf="@+id/pageNumberView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pageNumberView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="21sp"
+            android:layout_marginTop="10dp"
+            android:typeface="monospace"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/authorView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:typeface="monospace"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleYearView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/prevContextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingStart="25dp"
+        android:gravity="center_vertical"
+        android:fontFamily="monospace"
+        android:background="@color/vptContextBackground"
+        android:textSize="22sp"
+        android:textColor="@color/vptdarkerrose"
+        app:layout_constraintTop_toBottomOf="@+id/headerContainer" />
+
+    <v4lpt.vpt.f023.MYC.LineNumberedTextView
+        android:id="@+id/contentView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="1.8dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextContextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prevContextView" />
+
+    <TextView
+        android:id="@+id/nextContextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingStart="52dp"
+        android:paddingEnd="0dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:background="@color/vptContextBackground2"
+        android:textSize="22sp"
+        android:textColor="@color/vptrose"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainer" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#1A1A1A"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btnDiscard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Discard"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="#FF5555"/>
+
+        <Button
+            android:id="@+id/btnUse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Use"
+            android:layout_marginStart="4dp"
+            android:backgroundTint="#55AA55"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/touchArea"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

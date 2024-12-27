@@ -1,0 +1,4 @@
+2024-10-27 1.0.1 
+- color changed prev next lines 
+- adjusted layout margins 
+

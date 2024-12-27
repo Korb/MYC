@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+
+    <!-- Outer glow 1 (Blue at 0.3, 0.3) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:startColor="#0000FF"
+                android:endColor="#000000FF"
+                android:centerX="0.3"
+                android:centerY="0.3" />
+        </shape>
+    </item>
+
+    <!-- Outer glow 2 (Red at 0.5, 0.7) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:startColor="#FF0000"
+                android:endColor="#000000FF"
+                android:centerX="0.5"
+                android:centerY="0.7" />
+        </shape>
+    </item>
+
+    <!-- Outer glow 3 (Green at 0.7, 0.4) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:startColor="#00FF00"
+                android:endColor="#000000FF"
+                android:centerX="0.7"
+                android:centerY="0.4" />
+        </shape>
+    </item>
+
+
+</layer-list>
