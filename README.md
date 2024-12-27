@@ -95,8 +95,7 @@ tu ich Wunder auch.
 (...)
 ```
 
-![App use demo](app-use.gif)
-![App use demo for the impatient](app-use-fast.gif)
+
 
 ## Examples
 You can use the prepared files of classic texts (in the public domain) to get started with.
@@ -113,11 +112,11 @@ By default included in the app are also:
 ## Screenshots
 [<img width=200 alt="Screenshot 1" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true)
 [<img width=200 alt="Screenshot 2" src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true)
+[<img width=200 alt="Screenshot 3" src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true)
+[<img width=200 alt="Screenshot 4" src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true)
+[<img width=200 alt="Screenshot 5" src="fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true)
 [<img width=200 alt="App use demo" src="app-use.gif">](app-use.gif)
 [<img width=200 alt="App use demo for the impatient" src="app-use-fast.gif">](app-use-fast.gif)
-[<img width=200 alt="Screenshot 5" src="fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true)
-[<img width=200 alt="Screenshot 6" src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true)
-[<img width=200 alt="Screenshot 7" src="fastlane/metadata/android/en-US/images/phoneScreenshots/7.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/7.png?raw=true)
 [<img width=200 alt="Screenshot 8" src="fastlane/metadata/android/en-US/images/phoneScreenshots/8.png?raw=true">](fastlane/metadata/android/en-US/images/phoneScreenshots/8.png?raw=true)
 
 ## License
