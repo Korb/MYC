@@ -1,0 +1,29 @@
+Welcome to MYC (Memorize Your Classics)! This app helps you display, read, and memorize poems, ballads, epic poems, and other classic texts. 📚✨🎭
+
+<b>How it works:</b>
+* Tap the big red button to access your poem collection 
+* In the display screens:
+    * Navigate by tapping the right or left half of the screen
+    * See the current stanza, last two lines of previous stanza, and next two lines all at once! 📖
+    * Exit using standard Android back behavior
+* When first installed:
+    * Add poems by tapping the "+" symbol
+    * Enter author, title, year, and paste your content 📝
+    * Save with the big red button
+    * Or import prepared text files via the import icon 📤
+* Change poem IDs easily:
+    * Tap the 123 icon
+    * Enter any new 3-digit ID
+    * Move through poems automatically
+    * Tap 123 again to save
+
+<b>Features:</b>
+* 📱 <b>Smart Display</b> - See previous, current, and upcoming lines all at once for better memorization
+* 🔍 <b>Quick Access</b> - Use the Text ID system for instant poem retrieval
+* 📥 <b>Easy Import</b> - Bulk import function for prepared text files with simple syntax
+* 🔄 <b>Flexible Organization</b> - Change poem order and numbering easily
+* 💾 <b>Privacy First</b> - All data stored locally on your device
+
+Comes pre-loaded with classics like "The Raven" by Edgar Allan Poe, "Der Handschuh" by Friedrich Schiller, and "Der Zauberlehrling" by Goethe! 🎭📚
+
+Created with ❤️ by Valentin.
