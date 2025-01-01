@@ -265,7 +265,9 @@ public class ViewActivity extends Activity implements View.OnTouchListener {
 
         // Adjust the layout params of the rating layout
         WindowManager.LayoutParams params = getWindow().getAttributes();
-        params.flags |= WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS;
+        params.flags |= WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN
+                | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+                | WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON;
         getWindow().setAttributes(params);
     }
 
@@ -275,7 +277,9 @@ public class ViewActivity extends Activity implements View.OnTouchListener {
 
         // Reset the layout params
         WindowManager.LayoutParams params = getWindow().getAttributes();
-        params.flags &= ~(WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        params.flags &= ~(WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN
+                | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+                | WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         getWindow().setAttributes(params);
     }
     protected void onDestroy() {
