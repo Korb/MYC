@@ -4,7 +4,7 @@ MYC is an app for displaying, reading, and memorizing poems, ballads, epic poems
 
 It is optimized for 
 - memorizing by displaying in one screen: 
-	- the actual stanza,
+	- the current stanza,
 	- the last two lines of the previous stanza, and 
 	- the next two lines of the upcoming stanza. 
 
