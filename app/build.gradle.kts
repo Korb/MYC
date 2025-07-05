@@ -10,8 +10,8 @@ android {
         applicationId = "v4lpt.vpt.f023.MYC"
         minSdk = 33
         targetSdk = 34
-        versionCode = 1002
-        versionName = "1.0.2"
+        versionCode = 1003
+        versionName = "1.0.3"
     }
     dependenciesInfo {
         // Disables dependency metadata when building APKs.
