@@ -1,6 +1,7 @@
 Welcome to MYC (Memorize Your Classics)! This app helps you display, read, and memorize poems, ballads, epic poems, and other classic texts. 📚✨🎭
 
 <b>How it works:</b>
+
 * Tap the big red button to access your poem collection 
 * In the display screens:
     * Navigate by tapping the right or left half of the screen
@@ -18,6 +19,7 @@ Welcome to MYC (Memorize Your Classics)! This app helps you display, read, and m
     * Tap 123 again to save
 
 <b>Features:</b>
+
 * 📱 <b>Smart Display</b> - See previous, current, and upcoming lines all at once for better memorization
 * 🔍 <b>Quick Access</b> - Use the Text ID system for instant poem retrieval
 * 📥 <b>Easy Import</b> - Bulk import function for prepared text files with simple syntax
