@@ -50,30 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleBar1" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/infoLayout"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:visibility="gone"
-        android:background="#444654"
-        app:layout_constraintTop_toBottomOf="@id/titleBar2"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <!-- Content for the info screen can go here -->
-
-        <Button
-            android:id="@+id/backButton23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Back"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <!-- Welcome Text - Restored to its correct, visible position -->
+    <!-- Welcome Text -->
     <TextView
         android:id="@+id/explanationTextView"
         android:layout_width="wrap_content"
@@ -106,7 +83,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
@@ -135,7 +111,6 @@
         app:layout_constraintTop_toBottomOf="@+id/guideline"
         app:layout_constraintWidth_percent="0.8"
         app:layout_constraintHeight_default="wrap"
-
         app:layout_constraintVertical_bias="0"/>
 
     <Button
@@ -175,6 +150,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#33FFFFFF" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnImportFile"
         android:layout_width="48dp"
@@ -198,18 +174,18 @@
         app:rippleColor="#33FFFFFF" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnExportDb"
+        android:id="@+id/btnBackupRestore"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        app:icon="@drawable/database_export"
+        app:icon="@drawable/rounded_arrows_icon_bold_large"
         app:iconGravity="textStart"
         app:iconPadding="0dp"
-        app:iconSize="27dp"
+        app:iconSize="38dp"
         app:iconTint="#FFFFFF"
         android:insetLeft="0dp"
         android:insetTop="0dp"
         android:insetRight="0dp"
-        android:insetBottom="0dp"
+        android:insetBottom="9dp"
         app:cornerRadius="24dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
@@ -217,28 +193,6 @@
         app:backgroundTint="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/btnImportFile"
-        app:rippleColor="#33FFFFFF" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnImportDb"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        app:icon="@drawable/database_import"
-        app:iconGravity="textStart"
-        app:iconPadding="0dp"
-        app:iconSize="27dp"
-        app:iconTint="#FFFFFF"
-        android:insetLeft="0dp"
-        android:insetTop="0dp"
-        android:insetRight="0dp"
-        android:insetBottom="0dp"
-        app:cornerRadius="24dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        app:backgroundTint="@android:color/transparent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/btnExportDb"
         app:rippleColor="#33FFFFFF" />
 
     <com.google.android.material.button.MaterialButton
